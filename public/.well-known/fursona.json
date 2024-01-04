@@ -5,15 +5,18 @@
             "pronouns": "He/Him/Them",
             "gender": "male",
             "species": "Otter",
-            "description": "A description of the fursona, max 250 characters",
-            "ref": "https://example.com/ref",
-            "avatar": "http://example.com/avatar.png",
-            "age": 25,
-            "birthdate": "1996-01-01T20:20:39+00:00",
+            "description": "Otter, Otter, Otter",
+            "ref": "https://alex.otter.foo/img/fursona/ref/alexottr_ref.png",
+            "avatar": "https://alex.otter.foo/img/fursona/avatar/avatar.jpg",
+            "age": 29,
+            "birthdate": "1994-10-03T20:00:00+00:00",
             "colors": [
-                "#ff0000",
-                "#0f0",
-                "#00f"
+                "#F3C43A",
+                "#4D271E",
+                "#642C1D",
+                "#925B3C",
+                "#F2DBBB",
+                "#BB796D"
             ]
         }
     ]
