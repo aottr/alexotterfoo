@@ -8,8 +8,6 @@
             "description": "Otter, Otter, Otter",
             "ref": "https://alex.otter.foo/img/fursona/ref/alexottr_ref.png",
             "avatar": "https://alex.otter.foo/img/fursona/avatar/avatar.jpg",
-            "age": 29,
-            "birthdate": "1994-10-03T20:00:00+00:00",
             "colors": [
                 "#F3C43A",
                 "#4D271E",

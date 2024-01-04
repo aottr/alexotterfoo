@@ -16,7 +16,7 @@ export default function Home() {
         <Image
           src="/img/fursona/avatar/avatar.jpg"
           alt="Vercel Logo"
-          className="rounded-full ring-4 ring-accent ring-offset-base-100 w-56"
+          className="rounded-full ring-4 ring-accent ring-offset-base-100 w-56 hover:scale-105 ease-in duration-200"
           width={200}
           height={200}
           priority
@@ -36,7 +36,7 @@ export default function Home() {
       <LinkCategory title="Projects and Art">
         <LinkPageLink link="https://github.com/aottr" title="Github" Icon={IconBrandGithub} iconClasses='w-8 h-8' />
         <LinkPageLink link="https://www.furaffinity.net/user/coy~" title="FurAffinity" Icon={FurAffinity} />
-        <Link href='/placeholder' className='btn btn-lg btn-secondary btn-outline border-4 rounded-2xl w-full md:col-span-2 '>
+        <Link href='/projects' className='btn btn-lg btn-secondary btn-outline border-4 rounded-2xl w-full md:col-span-2 '>
           <IconCode className='w-8 h-8' />
           My Projects
         </Link>
