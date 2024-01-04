@@ -28,12 +28,12 @@ export default function Home() {
         <LinkPageLink link="https://discordapp.com/users/748482870942629889" title="Discord" Icon={IconBrandDiscord} iconClasses='w-8 h-8' />
         <LinkPageLink link="https://t.me/alexottr" title="Telegram" Icon={IconBrandTelegram} iconClasses='w-8 h-8' />
       </div>
-      <h2 className="text-2xl font-bold my-4 text-white">Projects and Art</h2>
+      <h2 className="text-2xl font-bold mb-4 mt-8 text-white">Projects and Art</h2>
       <div className="grid md:grid-cols-2 gap-4 w-full md:w-auto">
         <LinkPageLink link="https://github.com/aottr" title="Github" Icon={IconBrandGithub} iconClasses='w-8 h-8' />
         <LinkPageLink link="https://www.furaffinity.net/user/coy~" title="FurAffinity" Icon={FurAffinity} />
       </div>
-      <h2 className="text-2xl font-bold my-4 text-white">Support</h2>
+      <h2 className="text-2xl font-bold mb-4 mt-8 text-white">Support</h2>
       <div className="grid md:grid-cols-2 gap-4 w-full md:w-auto">
         <LinkPageLink link="https://ko-fi.com/alexottr" title="Ko-Fi" Icon={IconCoffee} iconClasses='w-8 h-8' />
         <LinkPageLink link="https://patreon.com/alexottr" title="Patreon" Icon={IconBrandPatreon} iconClasses='w-8 h-8' />
