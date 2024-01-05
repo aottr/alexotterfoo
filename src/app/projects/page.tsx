@@ -17,11 +17,11 @@ const ProjectsPage = () => {
                     <div className='mt-8'>
                         <Link href="https://github.com/aottr" className='btn btn-secondary rounded-2xl w-full mb-4'>
                             <IconBrandGithub className='w-8 h-8' />
-                            Private Github Profile
+                            Private Profile
                         </Link>
                         <Link href="https://github.com/ShorkBytes" className='btn btn-secondary rounded-2xl w-full'>
                             <IconBrandGithub className='w-8 h-8' />
-                            ShorkBytes Github Organisation
+                            ShorkBytes Organisation
                         </Link>
                     </div>
                 </div>
