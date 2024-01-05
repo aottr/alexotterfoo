@@ -40,7 +40,7 @@ export default function Home() {
           <IconCode className='w-8 h-8' />
           My Projects
         </Link>
-        <Link href='/placeholder' className='btn btn-lg btn-secondary btn-outline border-4 rounded-2xl w-full md:col-span-2 '>
+        <Link href='/fursona' className='btn btn-lg btn-secondary btn-outline border-4 rounded-2xl w-full md:col-span-2 '>
           <IconOtter />
           My Fursona
         </Link>

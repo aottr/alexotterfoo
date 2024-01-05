@@ -4,7 +4,7 @@ import ProjectCard from '@components/projects/Card';
 
 const ProjectsPage = () => {
     return (
-        <div className='h-screen antialiased font-mono'>
+        <div className='min-h-screen antialiased font-mono'>
             <nav className='flex justify-between items-center p-4'>
                 <Link href="/" className='btn btn-lg btn-outline btn-accent border-4 rounded-2xl w-full md:w-72'>
                     Back
