@@ -28,6 +28,7 @@ const ProjectsPage = () => {
                 <h1 className="text-2xl font-bold my-4 text-white">Contributions</h1>
                 <ProjectCard project={{ name: 'AwtterSpace', description: 'VR-content creation and community around the Awtter model and it\'s successors.', url: 'https://awtterspace.com', logo: 'https://awtterspace.com/static/img/logowhite.png', position: 'Head Dev / Infrastructure' }} />
                 <ProjectCard project={{ name: 'Furry Blacklight', description: 'A medium-sized convention located in Paris (France) hosted once per year.', url: 'https://fblacklight.org', logo: 'https://social.fblacklight.org/assets/fbl-logo.webp', position: 'DevOps / Infrastructure' }} />
+                <ProjectCard project={{ name: 'Artifact / Artaurium', description: 'Artifact is a community that provides a secure and safe platform for commissioners and artisans to sell and promote their services.', url: 'https://artaurium.com/', logo: 'https://artaurium.com/wp-content/uploads/2022/10/Artifact_logo_-_black_glow_no_border_circle.png', position: 'Dev Admin / Bot Dev' }} />
                 <ProjectCard project={{ name: 'BARQ!', description: 'A social app with 144k+ furries all around the world.', url: 'https://barq.app', logo: 'https://barq.app/barq.svg', position: 'Translator (DE)' }} />
 
             </main>
