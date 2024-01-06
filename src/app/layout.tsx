@@ -12,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="bg-[#092635] bg-gradient-to-br from-[#092635] via-[#1B4242] to-[#5C8374]">
-      <body>{children}</body>
+    <html lang="en" className="bg-primary">
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

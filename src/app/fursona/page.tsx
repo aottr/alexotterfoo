@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { IconHeart } from '@tabler/icons-react';
 
 import Fursona from '@public/.well-known/fursona.json';
 
@@ -7,13 +8,13 @@ const FursonaPage = () => {
 
     const fursona = Fursona.sonas[0];
     return (
-        <div className='min-h-screen antialiased font-mono'>
-            <nav className='flex justify-between items-center p-4'>
+        <div className='min-h-screen antialiased font-mono pb-6 px-6'>
+            <nav className='flex justify-between items-center py-6'>
                 <Link href="/" className='btn btn-lg btn-outline btn-accent border-4 rounded-2xl w-full md:w-72'>
                     Back
                 </Link>
             </nav>
-            <main className='flex flex-col items-center justify-center p-4'>
+            <main className='flex flex-col items-center justify-center py-4'>
                 <div className="flex flex-col items-center">
                     <Image
                         src="/img/fursona/avatar/avatar.jpg"
@@ -52,6 +53,9 @@ const FursonaPage = () => {
                     priority
                 /></Link>
             </main>
+            <footer className="flex justify-end w-full mt-12">
+                <p className="text-xs text-accent">Made with <IconHeart className='inline' size={16} /> by AlexOttr</p>
+            </footer>
         </div>
     );
 }

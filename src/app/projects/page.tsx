@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import { IconBrandGithub } from '@tabler/icons-react';
+import { IconBrandGithub, IconHeart } from '@tabler/icons-react';
 import ProjectCard from '@components/projects/Card';
 
 const ProjectsPage = () => {
     return (
-        <div className='min-h-screen antialiased font-mono'>
-            <nav className='flex justify-between items-center p-4'>
+        <div className='min-h-screen antialiased font-mono pb-6 px-6'>
+            <nav className='flex justify-between items-center py-6'>
                 <Link href="/" className='btn btn-lg btn-outline btn-accent border-4 rounded-2xl w-full md:w-72'>
                     Back
                 </Link>
             </nav>
-            <main className='flex flex-col items-center justify-center p-4'>
+            <main className='flex flex-col items-center justify-center py-4'>
                 <h1 className="text-4xl font-bold mb-4 text-white">Projects</h1>
                 <div className='w-full md:max-w-3xl border-4 border-accent rounded-2xl p-4 text-accent bg-accent/5'>
                     Please check out my Github Profile or my Github Organisation for a full list of my projects.
@@ -31,6 +31,9 @@ const ProjectsPage = () => {
                 <ProjectCard project={{ name: 'BARQ!', description: 'A social app with 144k+ furries all around the world.', url: 'https://barq.app', logo: 'https://barq.app/barq.svg', position: 'Translator (DE)' }} />
 
             </main>
+            <footer className="flex justify-end w-full mt-12">
+                <p className="text-xs text-accent">Made with <IconHeart className='inline' size={16} /> by AlexOttr</p>
+            </footer>
         </div>
     );
 }

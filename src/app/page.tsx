@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import FurAffinity from '@icons/FurAffinity';
-import { IconBrandMastodon, IconBrandTwitter, IconBrandDiscord, IconBrandTelegram, IconBrandGithub, IconCoffee, IconBrandPatreon, IconBrandBluesky, IconCode } from '@tabler/icons-react';
+import { IconBrandMastodon, IconBrandTwitter, IconBrandDiscord, IconBrandTelegram, IconBrandGithub, IconCoffee, IconBrandPatreon, IconBrandBluesky, IconCode, IconHeart } from '@tabler/icons-react';
 
 import LinkCategory from '@components/linkpage/LinkCategory';
 import LinkPageLink from '@components/linkpage/Link';
@@ -11,7 +11,7 @@ import IconOtter from '@components/icons/Otter';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center py-12 px-6 antialiased font-mono">
+    <div className="flex min-h-screen flex-col items-center pt-12 pb-6 px-6 antialiased font-mono">
       <div className="flex flex-col items-center">
         <Image
           src="/img/fursona/avatar/avatar.jpg"
@@ -50,6 +50,10 @@ export default function Home() {
         <LinkPageLink link="https://ko-fi.com/alexottr" title="Ko-Fi" Icon={IconCoffee} iconClasses='w-8 h-8' />
         <LinkPageLink link="https://patreon.com/alexottr" title="Patreon" Icon={IconBrandPatreon} iconClasses='w-8 h-8' />
       </LinkCategory>
-    </main>
+
+      <footer className="flex justify-end w-full mt-12">
+        <p className="text-xs text-accent">Made with <IconHeart className='inline' size={16} /> by AlexOttr</p>
+      </footer>
+    </div>
   );
 }
